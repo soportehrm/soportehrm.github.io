@@ -1,9 +1,3 @@
-<?php 
-header('Access-Control-Allow-Origin: *');
-header('Access-Control-Allow-Methods: GET, POST, PATCH, PUT, DELETE, OPTIONS');
-header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,8 +7,8 @@ header('Access-Control-Allow-Headers: Origin, Content-Type, X-Auth-Token');
     <title>Document</title>
 </head>
 <body>
-    <iframe src="https://survey.reviewpro.com/feedback/survey/YLAoObfhWk3eCaMR" width="100%" height="100%"></iframe>
+    <iframe is="x-frame-bypass" src="https://survey.reviewpro.com/feedback/survey/YLAoObfhWk3eCaMR" width="100%" height="100%"></iframe>
 </body>
-
+<script type="module" src="https://unpkg.com/x-frame-bypass"></script>
 </html>
 
